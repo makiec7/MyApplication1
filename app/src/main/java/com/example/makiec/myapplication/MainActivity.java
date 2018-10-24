@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                         .setPositiveButton(R.string.tak, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        Toast.makeText(getApplicationContext(), R.string.app_name,Toast.LENGTH_LONG).show();
+                         Toast.makeText(getApplicationContext(), R.string.app_name,Toast.LENGTH_LONG).show();
                     }
                 }).setNegativeButton(R.string.nie, new DialogInterface.OnClickListener() {
                     @Override
